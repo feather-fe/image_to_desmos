@@ -3,7 +3,7 @@ from PIL import Image
 from numpy import asarray 
 import numpy as np
 #loading the image 
-original = Image.open('images.jpeg')
+original = Image.open('image50.jpeg')
 # using the asarray() function
 # converting PIL images into NumPy arrays
 numpydataarr = asarray(original) 
