@@ -15,7 +15,7 @@ print("dimensions of the array", numpydataarr.shape)
 print("The pixel information is=")
 np.set_printoptions(threshold=np.inf)
 array = np.array(numpydataarr)
-list_tuples =[tuple(map(int, row)) for row in array.reshape(-1, array.shape[-1])]
+list_tuples = [tuple(map(int, row)) for row in array.reshape(-1, array.shape[-1])]
 print(list_tuples)
 with open("output.txt", "w") as f:
     print(list_tuples, file=f)
